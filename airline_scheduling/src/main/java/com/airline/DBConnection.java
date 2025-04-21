@@ -16,7 +16,7 @@ import java.sql.*;
 public class DBConnection {
     private static final String URL = "jdbc:mysql://localhost:3306/airline_scheduling";
     private static final String USER = "root"; // Change if needed
-    private static final String PASSWORD = "Csci-200@idmysql"; // Change if needed
+    private static final String PASSWORD = ""; // Change if needed
 
     public static Connection getConnection() throws SQLException {
         return DriverManager.getConnection(URL, USER, PASSWORD);
